@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  body{
+    min-height: 100vh;
+    max-width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0.9)),url(images/zoro.jpg);
+    background-size: cover;
+    color: black;
+  }
+  .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background-color: antiquewhite;
+  }
+  .container h1{
+    text-align: center;
+    padding: 20px ;
+    border-bottom: 1px solid silver;
+  }
+  .container form{
+    padding: 0 40px;
+    box-sizing: border-box;
+   
+  }
+  form .form{
+    position: relative;
+    border-bottom: 2px solid #abadad;
+    margin: 30px 0;
+    display: flex;
+  }
+  .form input{
+    width: 100%;
+    height: 40px;
+    padding:0 5px;
+
+  }
+  .form label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #abadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+  } 
+  .container button{
+    padding:0 40px ;
+    margin: 30px 0;
+  }

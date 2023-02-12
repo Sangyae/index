@@ -1,0 +1,148 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  min-height: 100%;
+  max-width: 100%;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0.9)),url(images/zoro.jpg);
+  color: #fff;
+  background-size: cover;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  padding: 30px 12%;
+  justify-content: space-between;
+
+}
+.logo{
+  display: flex;
+  align-items: flex-start;
+  color: black;
+}
+
+.logo span{
+  color:#fff ;
+  font-weight: 600;
+  font-size: 1.7rem;
+  text-decoration: none;
+
+}
+.logo span:hover{
+  transform: scale(1.1);
+}
+.navbar{
+  display: flex;
+}
+
+.navbar a{
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 5px 0;
+  margin: 0px 10px;
+  text-decoration: none;
+
+}
+.navbar a:hover{
+  color: aqua;
+}
+.main{
+  display: flex;
+  align-items: center;
+}
+.main a{
+  margin-right: 25px ;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+.user{
+  display: flex;
+  align-items: center;
+}
+.main a:hover{
+  color: aqua;
+}
+
+.search-container{
+ 
+  display: flex;
+  padding-top: 200px;
+}
+
+.search-container form{
+  padding-left: 80px;
+  
+}
+.search-container form:hover{
+  transform: scale(1.1);
+}
+.search-container form input[type="search"]{
+  height: 50px;
+  width: 600px;
+  border-radius:30px ;
+  padding-left: 20px;
+  padding-right:10px ;
+  font-size: 20px;
+ 
+}
+
+.img{
+  display: flex;
+  max-height: 250px;
+  margin-top: 60px;
+  border-radius: 60%;
+  padding: 20px;
+  float: left;
+
+  
+}
+.img:hover{
+  transform: scale(1.1);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btn{
+  height: 4rem;
+  width: 10rem;
+  padding-left: 80px;
+  margin-top:9px;
+
+  
+}
+.btn .arrow{
+  background-color:rgb(194, 197, 22);
+  cursor: pointer;
+}
+
+.arrow{
+  height: 50px;
+  width: 1000px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-weight: 70px;
+  font-size: 30px;
+  align-items: center;
+
+}
+.arrow img{
+  height: 25px;
+  width: 30px;
+  align-items: center;
+}
+
+img{
+  height: 200px;
+}
